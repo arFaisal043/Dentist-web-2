@@ -11,7 +11,7 @@
   --background-color: #f0e6e6; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #555555; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #3fbbc0; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #f0e6e6; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --accent-color: #090909; /*Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out*/
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --surface-color: #e0d8d8; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -1356,6 +1356,7 @@ section,
 
 .appointment .php-email-form button[type=submit] {
   background: var(--accent-color);
+  /* background: #f0e6e6; */
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1368,7 +1369,7 @@ section,
 }
 
 #appointment {
-  background-color: #e0d8d8;
+  background-color: #f0e6e6;
 }
 
 /*--------------------------------------------------------------
@@ -1523,8 +1524,12 @@ section,
 /*--------------------------------------------------------------
 # Doctors Section
 --------------------------------------------------------------*/
+#doctors {
+  background-color: #f0e6e6;
+}
 .doctors .team-member {
   background-color: var(--surface-color);
+  background-color: #f0e6e6;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1748,8 +1753,13 @@ section,
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/
+
+#faq {
+  background-color: #f0e6e6;
+}
 .faq .faq-container .faq-item {
   background-color: var(--surface-color);
+  background-color: #f0e6e6;
   position: relative;
   padding: 20px;
   margin-bottom: 15px;
